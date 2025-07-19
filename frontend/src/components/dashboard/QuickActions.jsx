@@ -24,12 +24,6 @@ export const QuickActions = () => {
       color: "bg-green-500 hover:bg-green-600"
     },
     {
-      title: "Mobile Deposit",
-      description: "Deposit checks instantly",
-      icon: <Smartphone className="h-6 w-6" />,
-      color: "bg-purple-500 hover:bg-purple-600"
-    },
-    {
       title: "Apply for Credit",
       description: "Credit cards & loans",
       icon: <CreditCard className="h-6 w-6" />,

@@ -112,7 +112,7 @@ const DashboardPanel = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-lg">
               <DollarSign className="h-5 w-5" />
-              Total Balance
+              Available Balance
             </CardTitle>
           </CardHeader>
           <CardContent>

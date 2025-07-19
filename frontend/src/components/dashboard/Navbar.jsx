@@ -27,19 +27,16 @@ export const Navbar = () => {
           {/* Navigation Links - Hidden on mobile */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Dashboard
+              Home
             </a>
             <a href="#" className="text-gray-500 hover:text-blue-600 font-medium transition-colors">
-              Accounts
+              Transfer
             </a>
             <a href="#" className="text-gray-500 hover:text-blue-600 font-medium transition-colors">
-              Transfers
+              Transactions
             </a>
             <a href="#" className="text-gray-500 hover:text-blue-600 font-medium transition-colors">
-              Payments
-            </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 font-medium transition-colors">
-              Investments
+              Support
             </a>
           </div>
 
@@ -57,9 +54,9 @@ export const Navbar = () => {
                 <Button variant="ghost" className="flex items-center space-x-2 hover:bg-gray-100">
                   <Avatar className="h-8 w-8">
                     <AvatarImage src="/placeholder.svg" alt="Sarah Johnson" />
-                    <AvatarFallback className="bg-blue-600 text-white">SJ</AvatarFallback>
+                    <AvatarFallback className="bg-blue-600 text-white"></AvatarFallback>
                   </Avatar>
-                  <span className="hidden md:block text-sm font-medium">Sarah Johnson</span>
+                  <span className="hidden md:block text-sm font-medium">Profile</span>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-56">
